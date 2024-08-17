@@ -27,7 +27,7 @@ const FAQSection = () => {
                 </Typography>
 
                 <PopupButton
-                  url="https://calendly.com/sanchitHealthcare/support"
+                  url="https://calendly.com/parasharharshit99/sanchit-healthcare-llp"
                   text="Schedule a Meeting"
                   color="#0069ff"
                   textColor="#ffffff"

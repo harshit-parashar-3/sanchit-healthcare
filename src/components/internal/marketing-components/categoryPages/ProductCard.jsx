@@ -18,10 +18,10 @@ export default function ProductCard({ item }) {
           "& > div": {
             transform: "scale(1.1)",
             "& > div:nth-child(2)": {
-              transform: "scaleY(0.9) translate3d(20px, 30px, 40px)",
+              transform: "scaleY(0.9) translate3d(0px, 30px, 40px)",
             },
-            "& > div:nth-child(3)": {
-              transform: "translate3d(45px, 50px, 40px)",
+            "& > div:nth-child(5)": {
+              transform: "translate3d(20px, 30px, 40px)",
             },
           },
         },

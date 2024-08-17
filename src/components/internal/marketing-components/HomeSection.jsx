@@ -19,11 +19,6 @@ const HomeSection = () => {
                   Equipment Supplier in Gwalior
                 </span>
               </Typography>
-              {/* <CustomButton
-                title="Start using sanchitHealthcare"
-                styles="button marketingButton mt-18"
-                url={"/"}
-              /> */}
             </Box>
           </Box>
         </Container>

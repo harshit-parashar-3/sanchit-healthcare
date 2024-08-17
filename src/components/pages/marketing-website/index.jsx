@@ -9,6 +9,7 @@ import FAQSection from "../../internal/marketing-components/FAQSection";
 import TestimonialSection from "../../internal/marketing-components/TestimonialSection";
 import MarketingFooter from "../../internal/layout/MarketingFooter";
 import useSmoothScroll from "../../../hooks/useSmoothScroll";
+import PartnerLogo from "../../internal/marketing-components/PartnerLogo";
 
 const InvoiceanMarketing = () => {
   useSmoothScroll();
@@ -21,6 +22,8 @@ const InvoiceanMarketing = () => {
       <MarketingHeader content={content} url={url} buttonTitle={buttonTitle} />
 
       <HomeSection />
+
+      <PartnerLogo />
 
       <AboutSection />
 

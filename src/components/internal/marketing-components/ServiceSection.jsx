@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid, Stack, Typography } from "@mui/material";
 import React from "react";
 import { servicesData } from "../../../constant";
 import { Link } from "react-router-dom";
@@ -36,13 +36,23 @@ const ServiceSection = () => {
                       data-aos="fade-up"
                       data-aos-delay={index * 100}
                     >
-                      <Box className="card-icon-container">{service?.icon}</Box>
-                      <Typography className="content-heading mt-18">
-                        {service?.heading}
-                      </Typography>
-                      <Typography className="content-subheading">
-                        {service?.subheading}
-                      </Typography>
+                      <Stack
+                        direction={"row"}
+                        spacing={2}
+                        alignItems={"center"}
+                      >
+                        <Box className="card-icon-container">
+                          {service?.icon}
+                        </Box>
+                        <Box>
+                          <Typography className="content-heading">
+                            {service?.heading}
+                          </Typography>
+                          <Typography className="content-subheading">
+                            {service?.subheading}
+                          </Typography>
+                        </Box>
+                      </Stack>
                     </Box>
                   </Link>
                 </Grid>

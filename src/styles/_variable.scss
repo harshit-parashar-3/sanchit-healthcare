@@ -20,7 +20,8 @@ $grid-breakpoints: (
   xlBreakpoint: $xl-breakpoint,
 );
 
-$primary: #4a7dff;
+$primary: #1462f3;
+$second-primay: #d9ebfc;
 $secondary: #363b4d;
 $error: #990000;
 $white: #ffffff;
@@ -36,7 +37,7 @@ $light-blue: #f1f7ff;
 $blue: #082755;
 $dark-gray: #333333;
 $field-background: #e2e2e2;
-$linear-background: transparent linear-gradient(90deg, #4a7dff 0%, #363b4d 100%)
+$linear-background: transparent linear-gradient(90deg, #489efc 0%, #363b4d 100%)
   0% 0% no-repeat padding-box;
 
 //Typography

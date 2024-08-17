@@ -1,51 +1,51 @@
-import BarChartIcon from "@mui/icons-material/BarChart";
-import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
-import ShareIcon from "@mui/icons-material/Share";
-import FolderCopyIcon from "@mui/icons-material/FolderCopy";
-import DescriptionIcon from "@mui/icons-material/Description";
-
+import BiotechIcon from "@mui/icons-material/Biotech";
+import StyleIcon from "@mui/icons-material/Style";
+import ScienceIcon from "@mui/icons-material/Science";
+import VaccinesIcon from "@mui/icons-material/Vaccines";
+import BloodtypeIcon from "@mui/icons-material/Bloodtype";
 export const servicesData = [
   {
-    icon: <DescriptionIcon sx={{ fontSize: "2.2rem" }} />,
+    icon: <BloodtypeIcon sx={{ fontSize: "2.2rem" }} />,
     heading: "Hematology",
     url: "/category/hematology",
     subheading:
-      "Explore our advanced hematology equipment for accurate and reliable blood analysis. Designed for comprehensive testing, our solutions handle everything from routine complete blood counts to specialized coagulation studies. With cutting-edge technology and intuitive interfaces, our hematology tools enhance diagnostic accuracy and streamline lab operations. Elevate your lab’s capabilities and ensure exceptional patient care with our state-of-the-art hematology machines.",
+      "Explore our advanced hematology equipment for accurate and reliable blood analysis. ",
   },
   {
-    icon: <ShareIcon sx={{ fontSize: "2.2rem" }} />,
+    icon: <ScienceIcon sx={{ fontSize: "2.2rem" }} />,
     heading: "Biochemistry",
     url: "/category/biochemistry",
     subheading:
-      "Discover our top-tier biochemistry equipment designed for precise and reliable chemical analysis. Our range includes advanced analyzers and diagnostic tools that ensure accurate results for various biochemical tests, from routine screenings to complex assays. With cutting-edge technology and user-friendly interfaces, our biochemistry solutions enhance your laboratory's efficiency and diagnostic capabilities. Achieve superior accuracy and streamline your workflow with our state-of-the-art biochemistry instruments",
+      "Discover our top-tier biochemistry equipment designed for precise and reliable chemical analysis. ",
   },
+
   {
-    icon: <FolderCopyIcon sx={{ fontSize: "2.2rem" }} />,
-    heading: "Rapid Card",
-    url: "/category/rapidcard",
-    subheading:
-      "Fast, Accurate Diagnostics Discover our advanced rapid test solutions designed for quick and precise results. Ideal for point-of-care and urgent testing, our range includes reliable tests for infectious diseases and various biomarkers. With cutting-edge technology, our rapid tests deliver accurate outcomes swiftly, enhancing efficiency and decision-making in your lab. Trust our innovative solutions to provide timely diagnostics and support superior patient care with minimal wait time.",
-  },
-  {
-    icon: <BarChartIcon sx={{ fontSize: "2.2rem" }} />,
+    icon: <BiotechIcon sx={{ fontSize: "2.2rem" }} />,
     heading: "Microbiology",
     url: "/category/microbiology",
     subheading:
-      "Explore our cutting-edge microbiology equipment designed for accurate and efficient microbial testing. Our range includes advanced tools for culture, identification, and sensitivity testing, ensuring precise results for a variety of microorganisms. With state-of-the-art technology and intuitive interfaces, our microbiology solutions enhance laboratory performance and support reliable diagnostics. Elevate your microbial analysis capabilities and ensure superior results with our innovative instruments.",
+      "Explore our cutting-edge microbiology equipment designed for accurate and efficient microbial testing.",
   },
   {
-    icon: <PictureAsPdfIcon sx={{ fontSize: "2.2rem" }} />,
+    icon: <StyleIcon sx={{ fontSize: "2.2rem" }} />,
+    heading: "Rapid Card",
+    url: "/category/rapidcard",
+    subheading:
+      "Fast, Accurate Diagnostics Discover our advanced rapid test solutions designed for quick and precise results.",
+  },
+  {
+    icon: <VaccinesIcon sx={{ fontSize: "2.2rem" }} />,
     heading: "Consumables",
     url: "/category/consumables",
     subheading:
-      "Discover our wide range of high-quality laboratory consumables, designed to meet your everyday needs. From pipettes and test tubes to gloves and reagents, our products ensure reliability and efficiency in every experiment. Crafted for durability and precision, our consumables support consistent results and streamline your lab operations. Trust our comprehensive selection to provide the essential tools you need for seamless and accurate laboratory work.Browse our extensive range of laboratory consumables",
+      "Discover our wide range of high-quality laboratory consumables, designed to meet your everyday needs.",
   },
 ];
 
 export const footerLinksGeneral = [
   { path: "/", label: "Home" },
   { path: "/category", label: "Category" },
-  { path: "/aboutus", label: "About sanchitHealthcare" },
+  { path: "/aboutus", label: "About sanchit Health care" },
   { path: "/contact", label: "Contact with us" },
 ];
 export const footerLinksLegal = [
